@@ -48,7 +48,7 @@ please check out our 14-steps Angular-Meteor [tutorial](https://angular-meteor.c
    $ meteor npm install
 ```
 
-Then run: ...test
+Then run:
 
 ```
    $ meteor

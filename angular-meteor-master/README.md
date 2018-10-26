@@ -37,7 +37,7 @@ Go to the [official docs about Meteor-RxJS](https://angular-meteor.com/meteor-rx
 
 ## Tutorial
 
-If you are new to Angular and/or Meteor but want to learn them quickly, 
+If you are new to Angular and/or Meteor but want to learn them quickly,
 please check out our 14-steps Angular-Meteor [tutorial](https://angular-meteor.com/tutorials/whatsapp2-tutorial).
 
 ## Quick Start Using Angular-Meteor
@@ -48,7 +48,7 @@ please check out our 14-steps Angular-Meteor [tutorial](https://angular-meteor.c
    $ meteor npm install
 ```
 
-Then run:
+Then run: ...test
 
 ```
    $ meteor

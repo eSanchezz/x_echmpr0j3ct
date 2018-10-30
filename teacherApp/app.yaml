@@ -1,0 +1,21 @@
+env: flex
+runtime: custom
+threadsafe: true
+automatic_scaling:
+  max_num_instances: 1
+env_variables:
+  ROOT_URL: https://meteorprueba.appspot.com
+  MONGO_URL: mongodb://root:root@10.164.0.2:27017/mongodb-1-vm
+  DISABLE_WEBSOCKETS: "1"
+skip_files:
+- ^(.*/)?\.dockerignore$
+- ^(.*/)?\npm-debug.log$
+- ^(.*/)?\yarn-error.log$
+- ^(.*/)?\.git$
+- ^(.*/)?\.hg$
+- ^(.*/)?\.svn$
+handlers:
+- url: /.*
+  script: true
+  secure: always
+  redirect_http_response_code: 301
